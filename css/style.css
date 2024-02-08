@@ -1,0 +1,81 @@
+.titulo{
+  font-size: 40px;  
+  text-align: center;
+  background-color: rgb(250, 235, 215);
+  border-radius: 25px;
+  padding: 10px;
+}
+body{
+    background-color:rgb(64, 91, 142);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+   width:  500px; 
+   height: 350px;
+   padding: 50px;
+   padding-bottom: 100px;
+   border-radius: 30px;
+   font-size: 25px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   background-color: rgba(110, 173, 255, 0);
+   border:solid 3px white;
+   font-family: 'Climate Crisis', sans-serif;
+   font-family: 'Protest Riot', sans-serif;
+   
+}
+.button{ 
+    background-color: rgba(0, 0, 0, 0.296);
+    font-size: 40px;
+    margin-left: 200px;
+    border-radius: 50px;
+    border: solid 3px  rgb(255, 255, 255);
+    padding: 15px;
+    color: white;
+    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+}
+button:hover{
+    transition: 0.5;
+    font-size: 25px;
+    
+}
+.label{
+    color: white;
+    font-size: 30px;
+}
+.input{
+    margin: 10px;
+    margin-right: 10px;
+    display: block; /*deixa o input um abaixo do outro */
+   font-size: 30px;
+}
+
+#respostaIMC{
+    font-size: 180px;
+    color: white;
+    text-align: center;
+    margin-top: -60px;
+    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+ 
+}
+
+.box-respostaIMC{
+  background-color: rgba(103, 134, 192, 0);
+  border-radius: 20px;
+  border: solid 3px white;
+  width: 600px;
+  height: 300px;
+  
+  font-size: 50px;  
+  text-align: center;
+  font-family: 'Climate Crisis', sans-serif;
+  font-family: 'Protest Riot', sans-serif;
+  color: rgb(152, 238, 152);
+ 
+}
