@@ -27,11 +27,12 @@ body{
    font-family: 'Climate Crisis', sans-serif;
    font-family: 'Protest Riot', sans-serif;
    
+   
 }
 .button{ 
     background-color: rgba(0, 0, 0, 0.296);
     font-size: 40px;
-    margin-left: 200px;
+    margin-left: 180px;
     border-radius: 50px;
     border: solid 3px  rgb(255, 255, 255);
     padding: 15px;
@@ -47,12 +48,15 @@ button:hover{
 .label{
     color: white;
     font-size: 30px;
+    margin-left: 50px;
 }
+
 .input{
     margin: 10px;
     margin-right: 10px;
     display: block; /*deixa o input um abaixo do outro */
    font-size: 30px;
+   margin-left: 50px;
 }
 
 #respostaIMC{
